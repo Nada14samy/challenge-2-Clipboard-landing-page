@@ -1,0 +1,57 @@
+@mixin back-ground-image{
+    background-image: url(../image/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@mixin flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // flex-wrap: wrap;
+}
+@mixin size{
+    width: 100%;
+    height: auto;
+}
+@mixin head{
+    width: 60%;
+    margin-block: 3rem;
+}
+@mixin title{
+    font-size: 3rem;
+    font-weight: 600;
+}
+@mixin p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+@mixin btn{
+    margin: 1rem;
+    // width: 100%;
+}
+@mixin btn2{
+    // width: 32%;
+    margin-block: 1rem;
+    font-size: 1.2rem;
+    padding: 0.6rem 2.5rem;
+    border-radius: 30px;
+    color: #fff;
+}
+@mixin bg-btnios{
+    margin-inline: 0.8rem;
+    background-color: hsl(171, 66%, 44%);
+    border: 2px solid hsl(171, 66%, 41%);
+    box-shadow: 2px 2px hsl(171, 66%, 41%);
+}
+@mixin bg-btnmac{
+    background-color: hsl(233, 100%, 69%);
+    border: 2px solid hsl(233, 100%, 66%);
+    box-shadow: 2px 2px hsl(233, 100%, 66%);
+}
+$font-title: 2rem;
+$font-p: 1.3rem;
+$font-title-l: 1.7rem;
+$font-p-l:1.2rem;

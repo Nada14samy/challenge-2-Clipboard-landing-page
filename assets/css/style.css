@@ -1,0 +1,669 @@
+.bai-jamjuree-regular {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bai-jamjuree-semibold {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+body {
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+header {
+  background-image: url(../image/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+}
+header .logo {
+  padding-top: 30px;
+  margin-top: 40px;
+}
+header .head {
+  width: 60%;
+  margin-block: 3rem;
+}
+header .head .title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+header .head .text-title {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+}
+header .head .btn {
+  margin: 1rem;
+}
+header .head .btn .btn-ios {
+  margin-block: 1rem;
+  font-size: 1.2rem;
+  padding: 0.6rem 2.5rem;
+  border-radius: 30px;
+  color: #fff;
+  margin-inline: 0.8rem;
+  background-color: hsl(171, 66%, 44%);
+  border: 2px solid hsl(171, 66%, 41%);
+  box-shadow: 2px 2px hsl(171, 66%, 41%);
+}
+header .head .btn .btn-mac {
+  margin-block: 1rem;
+  font-size: 1.2rem;
+  padding: 0.6rem 2.5rem;
+  border-radius: 30px;
+  color: #fff;
+  background-color: hsl(233, 100%, 69%);
+  border: 2px solid hsl(233, 100%, 66%);
+  box-shadow: 2px 2px hsl(233, 100%, 66%);
+}
+
+.snippets {
+  width: 100%;
+  height: auto;
+}
+.snippets .container {
+  width: 70%;
+}
+.snippets .container .head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-block: 45px;
+}
+.snippets .container .head .title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-block: 18px;
+  padding-block: 10px;
+}
+.snippets .container .head .text-title {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  font-size: 1.4rem;
+  padding-inline: 2rem;
+}
+.snippets .search {
+  width: 100%;
+  height: auto;
+  padding-block: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.snippets .search .img {
+  transform: translate(-40px, 0px);
+}
+.snippets .search .container {
+  width: 80%;
+  padding-top: 30px;
+}
+.snippets .search .container div {
+  padding-block: 15px;
+}
+.snippets .search .container div h5 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  padding-block: 10px;
+}
+.snippets .search .container div p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  font-size: 1.2rem;
+  margin-right: 30px;
+}
+
+.access {
+  width: 100%;
+  height: auto;
+  padding-block: 35px;
+}
+.access .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 65%;
+}
+.access .container div {
+  text-align: center;
+  padding-block: 35px;
+}
+.access .container div h1 {
+  font-size: 2.5rem;
+  padding-block: 1.2rem;
+}
+.access .container div p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+}
+
+.supercharge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-block: 35px;
+}
+.supercharge div {
+  padding-block: 20px;
+}
+.supercharge div h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-block: 18px;
+  padding-block: 10px;
+}
+.supercharge div p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  font-size: 1.3rem;
+  padding-inline: 2rem;
+}
+.supercharge .icon div svg {
+  margin-block: 2rem;
+}
+.supercharge .icon div h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-block: 0.6rem;
+}
+.supercharge .icon div p {
+  width: 100%;
+  height: auto;
+  font-size: 1.1rem;
+}
+
+.image-computer {
+  width: 100%;
+  height: auto;
+}
+.image-computer .circle {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.foot {
+  width: 100%;
+  height: auto;
+  padding-block: 35px;
+}
+.foot .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  margin-block: 3rem;
+  text-align: center;
+  padding-block: 35px;
+}
+.foot .container .title {
+  font-size: 3rem;
+  font-weight: 600;
+  font-size: 2.5rem;
+  padding-block: 18px;
+}
+.foot .container .text-title {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  font-size: 1.5rem;
+}
+.foot .container .btn .btn-ios {
+  margin-block: 1rem;
+  font-size: 1.2rem;
+  padding: 0.6rem 2.5rem;
+  border-radius: 30px;
+  color: #fff;
+  margin-inline: 0.8rem;
+  background-color: hsl(171, 66%, 44%);
+  border: 2px solid hsl(171, 66%, 41%);
+  box-shadow: 2px 2px hsl(171, 66%, 41%);
+}
+.foot .container .btn .btn-mac {
+  margin-block: 1rem;
+  font-size: 1.2rem;
+  padding: 0.6rem 2.5rem;
+  border-radius: 30px;
+  color: #fff;
+  background-color: hsl(233, 100%, 69%);
+  border: 2px solid hsl(233, 100%, 66%);
+  box-shadow: 2px 2px hsl(233, 100%, 66%);
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: hsla(202, 11%, 66%, 0.158);
+}
+footer .container {
+  padding-block: 25px;
+}
+footer .container .links {
+  padding-left: 35px;
+}
+footer .container .links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px 25px;
+}
+footer .container .links ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  padding: 15px;
+}
+footer .container .links ul li a:hover {
+  color: hsl(171, 66%, 44%);
+}
+footer .container .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .container .contact ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+}
+footer .container .contact ul li a {
+  color: #000;
+}
+footer .container .contact ul li a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+@media (min-width: 700px) and (max-width: 1100px) {
+  header .head .title {
+    font-size: 2rem;
+  }
+  header .head .text-title {
+    font-size: 1.3rem;
+  }
+  .snippets .container .head .title {
+    font-size: 2rem;
+  }
+  .snippets .container .head .text-title {
+    font-size: 1.3rem;
+    padding-inline: 0rem;
+  }
+  .snippets .search {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .snippets .search .img {
+    width: 100%;
+    transform: translate(0px, 0px);
+  }
+  .snippets .search .img img {
+    width: 65%;
+  }
+  .snippets .search .container {
+    width: 100%;
+    padding-top: 15px;
+  }
+  .snippets .search .container div {
+    padding-block: 15px;
+  }
+  .snippets .search .container div h5 {
+    padding-block: 20px;
+  }
+  .snippets .search .container div p {
+    margin-right: 0px;
+  }
+  .access .container {
+    width: 100%;
+  }
+  .access .container div h1 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .access .container div p {
+    font-size: 1.3rem;
+  }
+  .access .container img {
+    width: 100%;
+  }
+  .supercharge div {
+    padding-block: 20px;
+  }
+  .supercharge div h1 {
+    font-size: 2rem;
+  }
+  .supercharge div p {
+    font-size: 1.3rem;
+  }
+  .supercharge .icon div {
+    width: 100% !important;
+  }
+  .supercharge .icon div svg {
+    margin-block: 1rem;
+  }
+  .supercharge .icon div h4 {
+    font-size: 1.3rem;
+    padding-block: 0rem;
+  }
+  .supercharge .icon div p {
+    font-size: 1.1rem;
+  }
+  .image-computer .circle {
+    flex-wrap: wrap;
+  }
+  .image-computer .circle img {
+    margin: 20px;
+  }
+  .foot .container .title {
+    font-size: 1.6rem;
+  }
+  .foot .container .text-title {
+    font-size: 1.2rem;
+  }
+  footer .container .img {
+    width: 15% !important;
+    height: 30% !important;
+    text-align: center;
+    margin-top: 20px;
+  }
+  footer .container .links {
+    width: 60% !important;
+  }
+  footer .container .contact {
+    width: 25% !important;
+  }
+}
+@media (max-width: 699px) and (min-width: 450px) {
+  header .head {
+    width: 100%;
+  }
+  header .head .title {
+    font-size: 1.7rem;
+  }
+  header .head .text-title {
+    font-size: 1.2rem;
+  }
+  header .head .btn {
+    margin: 1rem;
+  }
+  header .head .btn .btn-ios {
+    font-size: 1.3rem;
+    width: 80%;
+  }
+  header .head .btn .btn-mac {
+    font-size: 1.3rem;
+    width: 80%;
+  }
+  .snippets .container {
+    width: 80% !important;
+  }
+  .snippets .container .head .title {
+    font-size: 1.7rem;
+  }
+  .snippets .container .head .text-title {
+    font-size: 1.2rem;
+    padding-inline: 0rem;
+  }
+  .snippets .search {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .snippets .search .img {
+    width: 100%;
+    transform: translate(0px, 0px);
+  }
+  .snippets .search .img img {
+    width: 65%;
+  }
+  .snippets .search .container {
+    width: 100%;
+    padding-top: 15px;
+  }
+  .snippets .search .container div {
+    padding-block: 15px;
+  }
+  .snippets .search .container div h5 {
+    padding-block: 20px;
+  }
+  .snippets .search .container div p {
+    margin-right: 0px;
+  }
+  .access .container {
+    width: 100%;
+  }
+  .access .container div h1 {
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+  .access .container div p {
+    font-size: 1.2rem;
+  }
+  .access .container img {
+    width: 100%;
+  }
+  .supercharge div {
+    padding-block: 20px;
+  }
+  .supercharge div h1 {
+    font-size: 1.7rem;
+  }
+  .supercharge div p {
+    font-size: 1.2rem;
+  }
+  .supercharge .icon div {
+    width: 100% !important;
+  }
+  .supercharge .icon div svg {
+    margin-block: 1rem;
+  }
+  .supercharge .icon div h4 {
+    font-size: 1.3rem;
+    padding-block: 0rem;
+  }
+  .supercharge .icon div p {
+    font-size: 1.1rem;
+  }
+  .image-computer .circle {
+    flex-wrap: wrap;
+  }
+  .image-computer .circle img {
+    margin: 15px;
+  }
+  .foot .container {
+    width: 100% !important;
+  }
+  .foot .container .title {
+    font-size: 1.5rem;
+  }
+  .foot .container .text-title {
+    font-size: 1rem;
+  }
+  .foot .container .btn .btn-ios {
+    font-size: 1.1rem;
+    width: 70%;
+  }
+  .foot .container .btn .btn-mac {
+    font-size: 1.1rem;
+    width: 70%;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+  }
+  footer .container .img {
+    text-align: center;
+    width: 100% !important;
+    height: 30% !important;
+    margin-bottom: 40px;
+  }
+  footer .container .links {
+    width: 100% !important;
+  }
+  footer .container .contact {
+    width: 100% !important;
+  }
+}
+@media (max-width: 449px) and (min-width: 250px) {
+  header {
+    background: url(../image/bg-header-mobile.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  header .head {
+    width: 100%;
+  }
+  header .head .title {
+    font-size: 1.7rem;
+  }
+  header .head .text-title {
+    font-size: 1.2rem;
+  }
+  header .head .btn {
+    margin: 1rem;
+  }
+  header .head .btn .btn-ios {
+    font-size: 0.8rem;
+    width: 80%;
+  }
+  header .head .btn .btn-mac {
+    font-size: 0.8rem;
+    width: 80%;
+  }
+  .snippets .container {
+    width: 80% !important;
+  }
+  .snippets .container .head .title {
+    font-size: 1.7rem;
+  }
+  .snippets .container .head .text-title {
+    font-size: 1.2rem;
+    padding-inline: 0rem;
+  }
+  .snippets .search {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .snippets .search .img {
+    width: 100%;
+    transform: translate(0px, 0px);
+  }
+  .snippets .search .img img {
+    width: 65%;
+  }
+  .snippets .search .container {
+    width: 100%;
+    padding-top: 15px;
+  }
+  .snippets .search .container div {
+    padding-block: 15px;
+  }
+  .snippets .search .container div h5 {
+    padding-block: 20px;
+  }
+  .snippets .search .container div p {
+    margin-right: 0px;
+  }
+  .access .container {
+    width: 100%;
+  }
+  .access .container div h1 {
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+  .access .container div p {
+    font-size: 1.2rem;
+  }
+  .access .container img {
+    width: 100%;
+  }
+  .supercharge div {
+    padding-block: 20px;
+  }
+  .supercharge div h1 {
+    font-size: 1.7rem;
+  }
+  .supercharge div p {
+    font-size: 1.2rem;
+  }
+  .supercharge .icon {
+    padding-right: 0px;
+  }
+  .supercharge .icon div {
+    width: 100% !important;
+  }
+  .supercharge .icon div svg {
+    margin-block: 1rem;
+  }
+  .supercharge .icon div h4 {
+    font-size: 1.3rem;
+    padding-block: 0rem;
+  }
+  .supercharge .icon div p {
+    font-size: 1.1rem;
+  }
+  .image-computer .circle {
+    flex-wrap: wrap;
+  }
+  .image-computer .circle img {
+    margin: 25px;
+  }
+  .foot .container {
+    width: 100% !important;
+  }
+  .foot .container .title {
+    font-size: 1.5rem;
+  }
+  .foot .container .text-title {
+    font-size: 1rem;
+  }
+  .foot .container .btn .btn-ios {
+    font-size: 0.9rem;
+    width: 70%;
+  }
+  .foot .container .btn .btn-mac {
+    font-size: 0.9rem;
+    width: 70%;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+  }
+  footer .container .img {
+    text-align: center;
+    width: 100% !important;
+    height: 30% !important;
+    margin-bottom: 40px;
+  }
+  footer .container .links {
+    width: 100% !important;
+  }
+  footer .container .contact {
+    width: 100% !important;
+  }
+}/*# sourceMappingURL=style.css.map */
